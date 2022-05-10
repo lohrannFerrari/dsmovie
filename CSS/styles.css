@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root {
 
+--bg-gray: #ddd;
+--color-primary: #4D41C0;
+--white: #fff;
+
+}
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3,h4,h5,h6 {
+
+
+margin: 0;
+
+
 
 }
 
@@ -16,7 +31,10 @@
  header {
 
      background-color: #4D41C0;
-     color: #fff
+     color: #fff;
+     height: 60px;
+     display: flex ;
+     align-items: center;
 
 }
 
@@ -26,13 +44,40 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
+}
+
+nav h1 {
+
+font: size 24px; ;
+font: weight 700px; ;
 
 }
+
+nav a {
+
+font: size 12px; ;
+font: height 16px; ;
+
+
+}
+
 
 a, a:hover{
 
     text-decoration: none;
     color: unset;
 
+
+}
+
+.dsmovie-contact-container{
+
+  display: flex;  
+  align-items: center;
+}
+
+.dsmovie-contact-container img{
+
+    margin-right: 10px;
 
 }
